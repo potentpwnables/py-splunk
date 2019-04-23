@@ -18,7 +18,7 @@ Once you've entered the necessary information to interact with Splunk, you're re
 
 # Note
 
-In the script, on line 15, you need modify `self.host` to point to your Splunk instance. If you don't know the URL that points to your search heads, reach out to your Splunk admin(s) for this information. It's import to note that it should point to the search heads directly, and not the URL you go to when running a query via the GUI.
+In the script, on line 15, you need modify `self.host` to point to your Splunk instance. If you don't know the URL that points to your search heads, reach out to your Splunk admin(s) for this information. It's important to note that it should point to the search heads directly, and not the URL you go to when running a query via the GUI.
 
 # Examples
 
