@@ -12,8 +12,7 @@ class API(object):
     def __init__(self):
         # Use this to bypass proxy for internal server
         self.proxies = {'http': None, 'https': None}
-        self.host = 'https://<splunk url>:8089'
-        self.base = self.host.format(self.search_head)
+        self.base = 'https://<splunk url>:8089'
         self.auth = None
         
     def authenticate(self, username, password):
